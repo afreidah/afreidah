@@ -1,4 +1,8 @@
-## Hi there 👋
+## Alex Freidah
+
+currently working on
+- s3-orchestrator: multi-backend s3-compatible storage orchestrator for replication, encryption, failover, quota enforcement, and more
+- munchbox: homelab that always has work to be done
 
 <!--
 **afreidah/afreidah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
