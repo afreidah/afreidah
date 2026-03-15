@@ -4,21 +4,20 @@ Infrastructure & Platform Engineering · [alexfreidah.com](https://alexfreidah.c
 
 ---
 
-### Homelab
-
-<a href="https://github.com/afreidah/munchbox/">
-  <img src="https://img.shields.io/badge/munchbox-homelab-334155?style=for-the-badge&logo=hashicorp&logoColor=white" alt="munchbox">
-</a>
-
-A hybrid cluster spanning bare-metal nodes and free-tier cloud VMs, running Nomad, Consul, and Vault. Always has work to be done.
-
----
-
 ### Projects
 
-Tools I built in Go that grew out of the homelab to solve problems I kept running into.
-
 <table>
+<tr>
+<td width="120" align="center">
+<a href="https://github.com/afreidah/munchbox">
+<img src="https://raw.githubusercontent.com/afreidah/munchbox/main/munchbox.png" width="100" alt="munchbox">
+</a>
+</td>
+<td>
+<strong><a href="https://github.com/afreidah/munchbox">munchbox</a></strong><br>
+The homelab that started it all. A hybrid cloud infrastructure platform running Nomad, Consul, and Vault across local bare-metal nodes and free-tier Oracle Cloud VMs, connected over WireGuard. Everything below grew out of this project.
+</td>
+</tr>
 <tr>
 <td width="120" align="center">
 <a href="https://s3-orchestrator.munchbox.cc">
