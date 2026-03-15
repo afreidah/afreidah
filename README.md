@@ -15,7 +15,7 @@ Infrastructure & Platform Engineering · [alexfreidah.com](https://alexfreidah.c
 </td>
 <td>
 <strong><a href="https://github.com/afreidah/munchbox">munchbox</a></strong><br>
-The homelab that started it all. A hybrid cloud infrastructure platform running Nomad, Consul, and Vault across local bare-metal nodes and free-tier Oracle Cloud VMs, connected over WireGuard. Everything below grew out of this project.
+The homelab that spawned the other projects. A hybrid cloud infrastructure platform running Nomad, Consul, and Vault across local bare-metal nodes, proxmox vms, and free-tier Oracle Cloud VMs, connected over WireGuard. Always a work in progress.
 </td>
 </tr>
 <tr>
