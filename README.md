@@ -4,7 +4,7 @@ Infrastructure & Platform Engineering · [alexfreidah.com](https://alexfreidah.c
 
 ---
 
-### Projects In Progress
+### Personal Projects In Progress
 
 <table>
 <tr>
