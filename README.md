@@ -51,4 +51,15 @@ Cloudflare analytics collector for self-hosted observability stacks. Polls the G
 Distributed monitoring and recovery for Oracle Cloud free-tier instances. Detects unresponsive nodes via Consul session heartbeats and automatically triggers OCI stop/start cycles.
 </td>
 </tr>
+<tr>
+<td width="120" align="center">
+<a href="https://nomad-temporal-jobs.munchbox.cc">
+<img src="https://raw.githubusercontent.com/afreidah/nomad-temporal-jobs/main/web/static/images/logo.png" width="100" alt="nomad-temporal-jobs">
+</a>
+</td>
+<td>
+<strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
+Temporal workflow workers that automate daily infrastructure housekeeping — PostgreSQL backups, Trivy vulnerability scanning, and stale allocation cleanup on Nomad client nodes.
+</td>
+</tr>
 </table>
