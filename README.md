@@ -26,7 +26,7 @@ The homelab that spawned the other projects. A hybrid cloud infrastructure platf
 </td>
 <td>
 <strong><a href="https://s3-orchestrator.munchbox.cc">s3-orchestrator</a></strong><br>
-Unified S3-compatible storage across multiple backends. Stack free-tier allocations from multiple providers into a single endpoint with per-backend quotas, cross-backend replication, and envelope encryption.
+Unified S3-compatible storage across multiple backends. Stack allocations from multiple providers into a single endpoint with optional per-backend bytes and montly api/ingress/egress quota enforcement, cross-backend replication/failover, and envelope encryption.  Combine multiple free-tier accounts and tune each to avoid incurring costs and present a unified s3-endpoint to your applications/clients without any code changes required.
 </td>
 </tr>
 <tr>
