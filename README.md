@@ -59,7 +59,7 @@ Distributed monitoring and recovery for Oracle Cloud free-tier instances. Detect
 </td>
 <td>
 <strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
-Temporal workflow workers that automate daily infrastructure housekeeping — PostgreSQL backups, Trivy vulnerability scanning, and stale allocation cleanup on Nomad client nodes.
+Temporal workflow workers that automate daily infrastructure housekeeping — Nomad/Consul/PostgreSQL (plus Vault via Consul backend) backups, Trivy vulnerability scanning of all running container versions, and stale allocation cleanup on Nomad client nodes.
 </td>
 </tr>
 </table>
