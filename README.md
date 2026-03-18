@@ -4,7 +4,7 @@ Infrastructure & Platform Engineering · [alexfreidah.com](https://alexfreidah.c
 
 ---
 
-### Personal Projects In Progress
+### Homelab (munchbox) and projects that spun out of it
 
 <table>
 <tr>
