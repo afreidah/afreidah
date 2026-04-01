@@ -64,7 +64,7 @@ Temporal workflow workers that automate daily infrastructure housekeeping — No
 </tr>
 <tr>
 <td width="120" align="center">
-<a href="https://github.com/afreidah/g3">
+<a href="https://g3.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/g3/main/docs/logo.png" width="100" alt="g3">
 </a>
 </td>
