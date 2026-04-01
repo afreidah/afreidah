@@ -62,4 +62,15 @@ Distributed monitoring and recovery for Oracle Cloud free-tier instances. Detect
 Temporal workflow workers that automate daily infrastructure housekeeping — Nomad/Consul/PostgreSQL (plus Vault via Consul backend) backups, Trivy vulnerability scanning of all running container versions, and stale allocation cleanup on Nomad client nodes.
 </td>
 </tr>
+<tr>
+<td width="120" align="center">
+<a href="https://github.com/afreidah/g3">
+<img src="https://raw.githubusercontent.com/afreidah/g3/main/docs/logo.png" width="100" alt="g3">
+</a>
+</td>
+<td>
+<strong><a href="https://github.com/afreidah/g3">g3</a></strong><br>
+S3-compatible HTTP gateway that uses Gmail as the storage backend. Objects are stored as emails — metadata in the body, data as attachments, buckets as labels. Designed for write-once/read-rarely workloads like offsite backups, turning Gmail's 15 GB of free storage into a durable, API-accessible backup target.
+</td>
+</tr>
 </table>
