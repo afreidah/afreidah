@@ -4,7 +4,7 @@ Infrastructure & Platform Engineering · [alexfreidah.com](https://alexfreidah.c
 
 ---
 
-### Homelab (munchbox) and projects that spun out of it
+### Homelab (munchbox - named after my dog Munch) and projects that spun out of it
 
 <table>
 <tr>
