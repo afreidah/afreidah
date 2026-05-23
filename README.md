@@ -48,7 +48,7 @@ Cloudflare analytics collector for self-hosted observability stacks. Polls the G
 </td>
 <td>
 <strong><a href="https://oracle-watchdog.munchbox.cc">oracle-watchdog</a></strong><br>
-Auto-recovers stuck Oracle Cloud free-tier instances by polling Consul KV for missing session heartbeats and driving OCI stop/start cycles. Ships an optional WireGuard endpoint resolver and Cloudflare DDNS updater. </td>
+Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances by polling Consul KV for missing session heartbeats and driving OCI stop/start cycles. Ships an optional WireGuard endpoint resolver and Cloudflare DDNS updater. </td>
 </tr>
 <tr>
 <td width="120" align="center">
