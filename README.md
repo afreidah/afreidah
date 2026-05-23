@@ -69,7 +69,7 @@ Temporal workflow workers that automate daily infrastructure housekeeping — No
 </td>
 <td>
 <strong><a href="https://g3.munchbox.cc">g3</a></strong><br>
-S3-compatible HTTP gateway that uses Gmail as the storage backend. Objects are stored as emails — metadata in the body, data as attachments, path as subject, and buckets as labels. Designed for write-once/read-rarely workloads like offsite backups, turning Gmail's 15 GB of free storage into a durable, API-accessible backup target.
+S3-compatible HTTP gateway that uses Gmail/Gdrive as the storage backend. Objects are stored as emails — metadata in the body, data as attachments, path as subject, and buckets as labels. Designed for write-once/read-rarely workloads like offsite backups, turning Gmail's 15 GB of free storage into a durable, API-accessible backup target.
 </td>
 </tr>
 </table>
