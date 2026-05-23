@@ -58,7 +58,7 @@ Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances 
 </td>
 <td>
 <strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
-Temporal workflow workers that automate daily infrastructure housekeeping — Nomad/Consul/PostgreSQL (plus Vault via Consul backend) backups, Trivy vulnerability scanning of all running container versions, and stale allocation cleanup on Nomad client nodes.
+Temporal workflow workers that automate infrastructure ops on a Nomad/Consul cluster: backups to S3, Trivy vulnerability scanning, orphaned-data cleanup, and saga-based Docker registry GC — fully traced with OpenTelemetry. 
 </td>
 </tr>
 <tr>
