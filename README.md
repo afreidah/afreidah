@@ -1,6 +1,6 @@
 ## Alex Freidah
 
-Infrastructure & Platform Engineering · [website](https://resume.alexfreidah.com) 
+Infrastructure & Platform Engineering · [website](https://alexfreidah.com) 
 
 ---
 
