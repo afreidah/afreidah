@@ -33,13 +33,13 @@ Unified S3-compatible storage across multiple backends. Stack allocations from m
 </tr>
 <tr>
 <td width="120" align="center">
-<a href="https://g3.munchbox.cc">
-<img src="g3.png" width="120" alt="g3">
+<a href="https://nomad-temporal-jobs.munchbox.cc">
+<img src="nomad-temporal-jobs.png" width="120" alt="nomad-temporal-jobs">
 </a>
 </td>
 <td>
-<strong><a href="https://g3.munchbox.cc">g3</a></strong><br>
-S3-compatible HTTP gateway that uses Gmail/Gdrive as the storage backend. Objects are stored as emails — metadata in the body, data as attachments, path as subject, and buckets as labels. Designed for write-once/read-rarely workloads like offsite backups, turning Gmail's 15 GB of free storage into a durable, API-accessible backup target.
+<strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
+Temporal workflow workers that automate infrastructure ops on a Nomad/Consul cluster: backups to S3, Trivy vulnerability scanning, orphaned-data cleanup, and saga-based Docker registry GC — fully traced with OpenTelemetry. 
 </td>
 </tr>
 <tr>
@@ -55,13 +55,13 @@ Compute broker for short-lived, stateless workloads. Jobs are described once in 
 </tr>
 <tr>
 <td width="120" align="center">
-<a href="https://nomad-temporal-jobs.munchbox.cc">
-<img src="nomad-temporal-jobs.png" width="120" alt="nomad-temporal-jobs">
+<a href="https://g3.munchbox.cc">
+<img src="g3.png" width="120" alt="g3">
 </a>
 </td>
 <td>
-<strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
-Temporal workflow workers that automate infrastructure ops on a Nomad/Consul cluster: backups to S3, Trivy vulnerability scanning, orphaned-data cleanup, and saga-based Docker registry GC — fully traced with OpenTelemetry. 
+<strong><a href="https://g3.munchbox.cc">g3</a></strong><br>
+S3-compatible HTTP gateway that uses Gmail/Gdrive as the storage backend. Objects are stored as emails — metadata in the body, data as attachments, path as subject, and buckets as labels. Designed for write-once/read-rarely workloads like offsite backups, turning Gmail's 15 GB of free storage into a durable, API-accessible backup target.
 </td>
 </tr>
 <tr>
