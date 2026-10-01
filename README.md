@@ -31,13 +31,13 @@ Unified S3-compatible storage across multiple backends. Stack allocations from m
 </tr>
 <tr>
 <td width="120" align="center">
-<a href="https://cloudflare-log-collector.munchbox.cc">
-<img src="cloudflare-log-collector.png" width="120" alt="cloudflare-log-collector">
+<a href="https://g3.munchbox.cc">
+<img src="g3.png" width="120" alt="g3">
 </a>
 </td>
 <td>
-<strong><a href="https://cloudflare-log-collector.munchbox.cc">cloudflare-log-collector</a></strong><br>
-Cloudflare analytics collector for self-hosted observability stacks. Polls the GraphQL API for firewall events and HTTP traffic stats, ships them to Loki and Prometheus with OpenTelemetry tracing.
+<strong><a href="https://g3.munchbox.cc">g3</a></strong><br>
+S3-compatible HTTP gateway that uses Gmail/Gdrive as the storage backend. Objects are stored as emails — metadata in the body, data as attachments, path as subject, and buckets as labels. Designed for write-once/read-rarely workloads like offsite backups, turning Gmail's 15 GB of free storage into a durable, API-accessible backup target.
 </td>
 </tr>
 <tr>
@@ -53,6 +53,17 @@ Temporal workflow workers that automate infrastructure ops on a Nomad/Consul clu
 </tr>
 <tr>
 <td width="120" align="center">
+<a href="https://cloudflare-log-collector.munchbox.cc">
+<img src="cloudflare-log-collector.png" width="120" alt="cloudflare-log-collector">
+</a>
+</td>
+<td>
+<strong><a href="https://cloudflare-log-collector.munchbox.cc">cloudflare-log-collector</a></strong><br>
+Cloudflare analytics collector for self-hosted observability stacks. Polls the GraphQL API for firewall events and HTTP traffic stats, ships them to Loki and Prometheus with OpenTelemetry tracing.
+</td>
+</tr>
+<tr>
+<td width="120" align="center">
 <a href="https://oracle-watchdog.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/oracle-watchdog/main/web/static/images/logo.png" width="100" alt="oracle-watchdog">
 </a>
@@ -60,16 +71,5 @@ Temporal workflow workers that automate infrastructure ops on a Nomad/Consul clu
 <td>
 <strong><a href="https://oracle-watchdog.munchbox.cc">oracle-watchdog</a></strong><br>
 Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances by polling Consul KV for missing session heartbeats and driving OCI stop/start cycles. Ships an optional WireGuard endpoint resolver and Cloudflare DDNS updater. </td>
-</tr>
-<tr>
-<td width="120" align="center">
-<a href="https://g3.munchbox.cc">
-<img src="g3.png" width="120" alt="g3">
-</a>
-</td>
-<td>
-<strong><a href="https://g3.munchbox.cc">g3</a></strong><br>
-S3-compatible HTTP gateway that uses Gmail/Gdrive as the storage backend. Objects are stored as emails — metadata in the body, data as attachments, path as subject, and buckets as labels. Designed for write-once/read-rarely workloads like offsite backups, turning Gmail's 15 GB of free storage into a durable, API-accessible backup target.
-</td>
 </tr>
 </table>
