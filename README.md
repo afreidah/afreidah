@@ -33,17 +33,6 @@ Unified S3-compatible storage across multiple backends. Stack allocations from m
 </tr>
 <tr>
 <td width="120" align="center">
-<a href="https://nomad-temporal-jobs.munchbox.cc">
-<img src="nomad-temporal-jobs.png" width="120" alt="nomad-temporal-jobs">
-</a>
-</td>
-<td>
-<strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
-Temporal workflow workers that automate infrastructure ops on a Nomad/Consul cluster: backups to S3, Trivy vulnerability scanning, orphaned-data cleanup, and saga-based Docker registry GC — fully traced with OpenTelemetry. 
-</td>
-</tr>
-<tr>
-<td width="120" align="center">
 <a href="https://vagabond.munchbox.cc">
 <img src="vagabond.png" width="90" alt="vagabond">
 </a>
@@ -51,6 +40,17 @@ Temporal workflow workers that automate infrastructure ops on a Nomad/Consul clu
 <td>
 <strong><a href="https://vagabond.munchbox.cc">vagabond</a></strong><br>
 Compute broker for short-lived, stateless workloads. Jobs are described once in Nomad-style HCL, and Vagabond picks the backend that can and should run them, runs them there, and reports the result. Backends are provider plugins: Google Cloud Run Jobs and AWS Lambda so far, plus your own machines running the lightweight Vagabond agent, which runs workloads as containers or Firecracker microVMs. <br><img src="https://img.shields.io/badge/early%20prototype-still%20taking%20shape-f97316" alt="early prototype, still taking shape">
+</td>
+</tr>
+<tr>
+<td width="120" align="center">
+<a href="https://nomad-temporal-jobs.munchbox.cc">
+<img src="nomad-temporal-jobs.png" width="120" alt="nomad-temporal-jobs">
+</a>
+</td>
+<td>
+<strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
+Temporal workflow workers that automate infrastructure ops on a Nomad/Consul cluster: backups to S3, Trivy vulnerability scanning, orphaned-data cleanup, and saga-based Docker registry GC — fully traced with OpenTelemetry. 
 </td>
 </tr>
 <tr>
