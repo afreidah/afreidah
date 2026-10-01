@@ -32,7 +32,7 @@ Unified S3-compatible storage across multiple backends. Stack allocations from m
 <tr>
 <td width="120" align="center">
 <a href="https://cloudflare-log-collector.munchbox.cc">
-<img src="https://raw.githubusercontent.com/afreidah/cloudflare-log-collector/main/web/static/images/logo.png" width="115" alt="cloudflare-log-collector">
+<img src="https://raw.githubusercontent.com/afreidah/cloudflare-log-collector/main/web/static/images/logo.png" width="160" alt="cloudflare-log-collector">
 </a>
 </td>
 <td>
@@ -43,7 +43,7 @@ Cloudflare analytics collector for self-hosted observability stacks. Polls the G
 <tr>
 <td width="120" align="center">
 <a href="https://nomad-temporal-jobs.munchbox.cc">
-<img src="https://raw.githubusercontent.com/afreidah/nomad-temporal-jobs/main/web/static/images/logo.png" width="115" alt="nomad-temporal-jobs">
+<img src="https://raw.githubusercontent.com/afreidah/nomad-temporal-jobs/main/web/static/images/logo.png" width="160" alt="nomad-temporal-jobs">
 </a>
 </td>
 <td>
@@ -64,7 +64,7 @@ Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances 
 <tr>
 <td width="120" align="center">
 <a href="https://g3.munchbox.cc">
-<img src="https://raw.githubusercontent.com/afreidah/g3/main/docs/logo.png" width="115" alt="g3">
+<img src="https://raw.githubusercontent.com/afreidah/g3/main/docs/logo.png" width="160" alt="g3">
 </a>
 </td>
 <td>
