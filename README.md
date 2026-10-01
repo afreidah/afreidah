@@ -10,7 +10,7 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 <tr>
 <td width="120" align="center">
 <a href="https://github.com/afreidah/munchbox">
-<img src="https://raw.githubusercontent.com/afreidah/munchbox/main/munchbox.png" width="100" alt="munchbox">
+<img src="https://raw.githubusercontent.com/afreidah/munchbox/main/assets/munchbox.png" width="100" alt="munchbox">
 </a>
 </td>
 <td>
