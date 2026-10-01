@@ -8,7 +8,7 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 
 <table>
 <tr>
-<td width="120" align="center">
+<td width="170" align="center">
 <a href="https://github.com/afreidah/munchbox">
 <img src="munchbox.png" width="100" alt="munchbox">
 </a>
@@ -19,7 +19,7 @@ The homelab that spawned the other projects. A hybrid cloud infrastructure platf
 </td>
 </tr>
 <tr>
-<td width="120" align="center">
+<td width="170" align="center">
 <a href="https://s3-orchestrator.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/s3-orchestrator/main/docs/images/logo.png" width="100" alt="s3-orchestrator">
 </a>
@@ -30,7 +30,7 @@ Unified S3-compatible storage across multiple backends. Stack allocations from m
 </td>
 </tr>
 <tr>
-<td width="120" align="center">
+<td width="170" align="center">
 <a href="https://cloudflare-log-collector.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/cloudflare-log-collector/main/web/static/images/logo.png" width="160" alt="cloudflare-log-collector">
 </a>
@@ -41,7 +41,7 @@ Cloudflare analytics collector for self-hosted observability stacks. Polls the G
 </td>
 </tr>
 <tr>
-<td width="120" align="center">
+<td width="170" align="center">
 <a href="https://nomad-temporal-jobs.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/nomad-temporal-jobs/main/web/static/images/logo.png" width="160" alt="nomad-temporal-jobs">
 </a>
@@ -52,7 +52,7 @@ Temporal workflow workers that automate infrastructure ops on a Nomad/Consul clu
 </td>
 </tr>
 <tr>
-<td width="120" align="center">
+<td width="170" align="center">
 <a href="https://oracle-watchdog.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/oracle-watchdog/main/web/static/images/logo.png" width="100" alt="oracle-watchdog">
 </a>
@@ -62,7 +62,7 @@ Temporal workflow workers that automate infrastructure ops on a Nomad/Consul clu
 Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances by polling Consul KV for missing session heartbeats and driving OCI stop/start cycles. Ships an optional WireGuard endpoint resolver and Cloudflare DDNS updater. </td>
 </tr>
 <tr>
-<td width="120" align="center">
+<td width="170" align="center">
 <a href="https://g3.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/g3/main/docs/logo.png" width="160" alt="g3">
 </a>
