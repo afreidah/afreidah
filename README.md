@@ -66,6 +66,17 @@ S3-compatible HTTP gateway that uses Gmail/Gdrive as the storage backend. Object
 </tr>
 <tr>
 <td width="120" align="center">
+<a href="https://github.com/afreidah/munchbox-hashi-upgrade">
+<img src="munchbox-hashi-upgrade.png" width="100" alt="munchbox-hashi-upgrade">
+</a>
+</td>
+<td>
+<strong><a href="https://github.com/afreidah/munchbox-hashi-upgrade">munchbox-hashi-upgrade</a></strong><br>
+Rolling upgrades for Nomad, Consul, and Vault. Surveys a cluster through its own API, writes a run file whose task order and health gates are derived from what each host carries, then drives cinc-client host by host. The run file doubles as the journal, rewritten after every task, so a run that stops for any reason resumes where it left off. Used to upgrade production Nomad, Consul, and Vault clusters.
+</td>
+</tr>
+<tr>
+<td width="120" align="center">
 <a href="https://cloudflare-log-collector.munchbox.cc">
 <img src="cloudflare-log-collector.png" width="120" alt="cloudflare-log-collector">
 </a>
