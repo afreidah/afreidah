@@ -27,7 +27,7 @@ The homelab that spawned the other projects. A hybrid cloud infrastructure platf
 </td>
 <td>
 <strong><a href="https://s3-orchestrator.munchbox.cc">s3-orchestrator</a></strong><br>
-Unified S3-compatible storage across multiple backends. Stack allocations from multiple providers into a single endpoint with optional per-backend bytes and montly api/ingress/egress quota enforcement, cross-backend replication/failover, and envelope encryption.  Combine multiple free-tier accounts and tune each to avoid incurring costs and present a unified s3-endpoint to your applications/clients without any code changes required.
+Storage orchestration layer that presents many S3-compatible providers as a single S3 endpoint. It keeps a configurable number of copies across them with read failover, and can enforce per-backend byte, request, ingress, and egress limits, with optional zstd compression and envelope encryption. Stack several free-tier accounts, cap each below its free allowance, and point your applications at one endpoint with no code changes.
 <br><a href="https://github.com/afreidah/s3-orchestrator"><img src="https://img.shields.io/badge/mature-looking%20for%20users%20%26%20contributors-16a34a" alt="mature, looking for users and contributors"></a>
 </td>
 </tr>
