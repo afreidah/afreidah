@@ -42,16 +42,6 @@ Cloudflare analytics collector for self-hosted observability stacks. Polls the G
 </tr>
 <tr>
 <td width="120" align="center">
-<a href="https://oracle-watchdog.munchbox.cc">
-<img src="https://raw.githubusercontent.com/afreidah/oracle-watchdog/main/web/static/images/logo.png" width="100" alt="oracle-watchdog">
-</a>
-</td>
-<td>
-<strong><a href="https://oracle-watchdog.munchbox.cc">oracle-watchdog</a></strong><br>
-Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances by polling Consul KV for missing session heartbeats and driving OCI stop/start cycles. Ships an optional WireGuard endpoint resolver and Cloudflare DDNS updater. </td>
-</tr>
-<tr>
-<td width="120" align="center">
 <a href="https://nomad-temporal-jobs.munchbox.cc">
 <img src="https://raw.githubusercontent.com/afreidah/nomad-temporal-jobs/main/web/static/images/logo.png" width="100" alt="nomad-temporal-jobs">
 </a>
@@ -60,6 +50,16 @@ Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances 
 <strong><a href="https://nomad-temporal-jobs.munchbox.cc">nomad-temporal-jobs</a></strong><br>
 Temporal workflow workers that automate infrastructure ops on a Nomad/Consul cluster: backups to S3, Trivy vulnerability scanning, orphaned-data cleanup, and saga-based Docker registry GC — fully traced with OpenTelemetry. 
 </td>
+</tr>
+<tr>
+<td width="120" align="center">
+<a href="https://oracle-watchdog.munchbox.cc">
+<img src="https://raw.githubusercontent.com/afreidah/oracle-watchdog/main/web/static/images/logo.png" width="100" alt="oracle-watchdog">
+</a>
+</td>
+<td>
+<strong><a href="https://oracle-watchdog.munchbox.cc">oracle-watchdog</a></strong><br>
+Dual monitor/agent binary. Auto-recovers stuck Oracle Cloud free-tier instances by polling Consul KV for missing session heartbeats and driving OCI stop/start cycles. Ships an optional WireGuard endpoint resolver and Cloudflare DDNS updater. </td>
 </tr>
 <tr>
 <td width="120" align="center">
