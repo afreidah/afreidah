@@ -48,7 +48,7 @@ S3-compatible HTTP gateway that uses Gmail/Gdrive as the storage backend. Object
 </td>
 <td>
 <strong><a href="https://vagabond.munchbox.cc">vagabond</a></strong><br>
-Compute broker for short-lived, stateless workloads. Jobs are described once in Nomad-style HCL, and Vagabond picks the backend that can and should run them, runs them there, and reports the result. Backends are provider plugins: Google Cloud Run Jobs and AWS Lambda so far, plus your own machines running the lightweight Vagabond agent, which runs workloads as containers or Firecracker microVMs. <em>Early prototype, still taking shape.</em>
+Compute broker for short-lived, stateless workloads. Jobs are described once in Nomad-style HCL, and Vagabond picks the backend that can and should run them, runs them there, and reports the result. Backends are provider plugins: Google Cloud Run Jobs and AWS Lambda so far, plus your own machines running the lightweight Vagabond agent, which runs workloads as containers or Firecracker microVMs. <br><img src="https://img.shields.io/badge/early%20prototype-still%20taking%20shape-f97316" alt="early prototype, still taking shape">
 </td>
 </tr>
 <tr>
