@@ -16,6 +16,7 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 <td>
 <strong><a href="https://github.com/afreidah/munchbox">munchbox</a></strong><br>
 The homelab that spawned the other projects. A hybrid cloud infrastructure platform running Nomad, Consul, and Vault across local bare-metal nodes, proxmox vms, and free-tier Oracle Cloud VMs, connected over WireGuard. Always a work in progress.
+<br><img src="https://img.shields.io/badge/Nomad-00CA8E?logo=nomad&logoColor=white" alt="Nomad"> <img src="https://img.shields.io/badge/Consul-E03875?logo=consul&logoColor=white" alt="Consul"> <img src="https://img.shields.io/badge/Vault-FFD814?logo=vault&logoColor=black" alt="Vault"> <img src="https://img.shields.io/badge/Cinc%2FChef-F09820?logo=chef&logoColor=white" alt="Cinc/Chef"> <img src="https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white" alt="Terraform"> <img src="https://img.shields.io/badge/Terragrunt-5C4EE5" alt="Terragrunt">
 </td>
 </tr>
 <tr>
