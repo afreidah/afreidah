@@ -9,15 +9,15 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 <table>
 <tr>
 <td width="80" align="center"><a href="https://github.com/afreidah/munchbox"><img src="munchbox.png" width="66" alt="munchbox"></a></td>
-<td><strong><a href="https://github.com/afreidah/munchbox">munchbox</a></strong> <a href="https://github.com/afreidah/munchbox/tree/main/nomad/jobs"><img src="https://img.shields.io/badge/Nomad-00CA8E?logo=nomad&logoColor=white" alt="Nomad"></a> <a href="https://github.com/afreidah/munchbox/tree/main/infrastructure/cinc/cookbooks/consul"><img src="https://img.shields.io/badge/Consul-E03875?logo=consul&logoColor=white" alt="Consul"></a> <a href="https://github.com/afreidah/munchbox/tree/main/infrastructure/cinc/cookbooks/vault"><img src="https://img.shields.io/badge/Vault-FFD814?logo=vault&logoColor=black" alt="Vault"></a> <a href="https://github.com/afreidah/munchbox/tree/main/infrastructure/cinc/cookbooks"><img src="https://img.shields.io/badge/Cinc%2FChef-F09820?logo=chef&logoColor=white" alt="Cinc/Chef"></a> <a href="https://github.com/afreidah/munchbox/tree/main/infrastructure/terragrunt/modules"><img src="https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white" alt="Terraform"></a> <a href="https://github.com/afreidah/munchbox/tree/main/infrastructure/terragrunt"><img src="https://img.shields.io/badge/Terragrunt-5C4EE5" alt="Terragrunt"></a><br>Hybrid-cloud homelab running Nomad, Consul, and Vault across bare metal, Proxmox VMs, and Oracle Cloud free-tier nodes linked over WireGuard. The other projects spun out of it.</td>
+<td><strong><a href="https://github.com/afreidah/munchbox">munchbox</a></strong><br>Hybrid-cloud homelab running Nomad, Consul, and Vault across bare metal, Proxmox VMs, and Oracle Cloud free-tier nodes linked over WireGuard. The other projects spun out of it.</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://s3-orchestrator.munchbox.cc"><img src="s3-orchestrator.png" width="52" alt="s3-orchestrator"></a></td>
-<td><strong><a href="https://github.com/afreidah/s3-orchestrator">s3-orchestrator</a></strong> <a href="https://github.com/afreidah/s3-orchestrator"><img src="https://img.shields.io/badge/mature-looking%20for%20users%20%26%20contributors-16a34a" alt="mature, looking for users and contributors"></a><br>Presents many S3-compatible providers as one S3 endpoint, with replicated copies, read failover, per-backend limits, compression, and envelope encryption.</td>
+<td><strong><a href="https://github.com/afreidah/s3-orchestrator">s3-orchestrator</a></strong><br>Presents many S3-compatible providers as one S3 endpoint, with replicated copies, read failover, per-backend limits, compression, and envelope encryption. (mature, looking for users and contributors)</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://vagabond.munchbox.cc"><img src="vagabond.png" width="54" alt="vagabond"></a></td>
-<td><strong><a href="https://github.com/afreidah/vagabond">vagabond</a></strong> <img src="https://img.shields.io/badge/early%20prototype-still%20taking%20shape-f97316" alt="early prototype, still taking shape"><br>Compute broker for short-lived workloads: describe a job once in Nomad-style HCL and it runs on Cloud Run, Lambda, or your own machines.</td>
+<td><strong><a href="https://github.com/afreidah/vagabond">vagabond</a></strong><br>Compute broker for short-lived workloads: describe a job once in Nomad-style HCL and it runs on Cloud Run, Lambda, or your own machines. (early prototype, still taking shape)</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://nomad-temporal-jobs.munchbox.cc"><img src="nomad-temporal-jobs.png" width="76" alt="nomad-temporal-jobs"></a></td>
