@@ -35,8 +35,4 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 <td width="80" align="center"><a href="https://oracle-watchdog.munchbox.cc"><img src="oracle-watchdog.png" width="60" alt="oracle-watchdog"></a></td>
 <td><strong><a href="https://github.com/afreidah/oracle-watchdog">oracle-watchdog</a></strong><br>Auto-recovers stuck Oracle Cloud free-tier instances by watching Consul session heartbeats and driving OCI stop/start cycles.</td>
 </tr>
-<tr>
-<td width="80" align="center"><a href="https://vagabond.munchbox.cc"><img src="vagabond.png" width="54" alt="vagabond"></a></td>
-<td><strong><a href="https://github.com/afreidah/vagabond">vagabond</a></strong><br>Compute broker for short-lived workloads: describe a job once in Nomad-style HCL and it runs on Cloud Run, Lambda, or your own machines. (early prototype, still taking shape)</td>
-</tr>
 </table>
