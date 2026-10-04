@@ -25,7 +25,7 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://github.com/afreidah/munchbox-hashi-upgrade"><img src="munchbox-hashi-upgrade.png" width="66" alt="munchbox-hashi-upgrade"></a></td>
-<td><strong><a href="https://github.com/afreidah/munchbox-hashi-upgrade">munchbox-hashi-upgrade</a></strong><br>Resumable rolling upgrades for Nomad, Consul, and Vault, with task order and health gates derived from the cluster itself. Has driven all three across production: Nomad over 12 hosts, Consul over 17, Vault over 3.</td>
+<td><strong><a href="https://github.com/afreidah/munchbox-hashi-upgrade">munchbox-hashi-upgrade</a></strong><br>Resumable rolling upgrades for Nomad, Consul, and Vault, with task order and health gates based on dynamically discovered cluster topology. Has driven all three across production: Nomad over 12 hosts, Consul over 17, Vault over 3.</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://cloudflare-log-collector.munchbox.cc"><img src="cloudflare-log-collector.png" width="80" alt="cloudflare-log-collector"></a></td>
