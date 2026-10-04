@@ -17,19 +17,19 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://g3.munchbox.cc"><img src="g3.png" width="80" alt="g3"></a></td>
-<td><strong><a href="https://github.com/afreidah/g3">g3</a></strong><br>S3-compatible gateway that stores objects as Gmail messages, turning 15 GB of free mail storage into an offsite backup target.</td>
+<td><strong><a href="https://github.com/afreidah/g3">g3</a></strong><br>S3-compatible gateway backed by a Google account: object data streams to Drive with no size ceiling, Gmail messages hold the metadata, and a local SQLite index keeps metadata reads off the API entirely.</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://nomad-temporal-jobs.munchbox.cc"><img src="nomad-temporal-jobs.png" width="76" alt="nomad-temporal-jobs"></a></td>
-<td><strong><a href="https://github.com/afreidah/nomad-temporal-jobs">nomad-temporal-jobs</a></strong><br>Temporal workers that automate Nomad/Consul cluster ops: S3 backups, Trivy scans, orphaned-data cleanup, and registry GC, traced with OpenTelemetry.</td>
+<td><strong><a href="https://github.com/afreidah/nomad-temporal-jobs">nomad-temporal-jobs</a></strong><br>Seven Temporal workers running ten scheduled jobs against the cluster: on-demand CI runners that exist only while a job is queued, Raft snapshots, image scanning, ACME and GitHub token renewal, and storage reclamation, all traced with OpenTelemetry.</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://github.com/afreidah/munchbox-hashi-upgrade"><img src="munchbox-hashi-upgrade.png" width="66" alt="munchbox-hashi-upgrade"></a></td>
-<td><strong><a href="https://github.com/afreidah/munchbox-hashi-upgrade">munchbox-hashi-upgrade</a></strong><br>Resumable rolling upgrades for Nomad, Consul, and Vault, with task order and health gates derived from the cluster itself.</td>
+<td><strong><a href="https://github.com/afreidah/munchbox-hashi-upgrade">munchbox-hashi-upgrade</a></strong><br>Resumable rolling upgrades for Nomad, Consul, and Vault, with task order and health gates derived from the cluster itself. Has driven all three across production: Nomad over 12 hosts, Consul over 17, Vault over 3.</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://cloudflare-log-collector.munchbox.cc"><img src="cloudflare-log-collector.png" width="80" alt="cloudflare-log-collector"></a></td>
-<td><strong><a href="https://github.com/afreidah/cloudflare-log-collector">cloudflare-log-collector</a></strong><br>Polls Cloudflare's GraphQL API for firewall events and traffic stats and ships them to Loki and Prometheus.</td>
+<td><strong><a href="https://github.com/afreidah/cloudflare-log-collector">cloudflare-log-collector</a></strong><br>Polls Cloudflare for firewall events, HTTP traffic, account audit logs, and real browser Core Web Vitals, shipping them to Loki and Prometheus with every cycle traced to Tempo.</td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://oracle-watchdog.munchbox.cc"><img src="oracle-watchdog.png" width="60" alt="oracle-watchdog"></a></td>
