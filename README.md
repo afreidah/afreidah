@@ -13,7 +13,7 @@ Infrastructure & Platform Engineering · [website](https://alexfreidah.com)
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://s3-orchestrator.munchbox.cc"><img src="s3-orchestrator.png" width="52" alt="s3-orchestrator"></a></td>
-<td><strong><a href="https://github.com/afreidah/s3-orchestrator">s3-orchestrator</a></strong><br>Presents many S3-compatible providers as one S3 endpoint, with replicated copies, read failover, per-backend limits, compression, and envelope encryption. (looking for users and contributors)</td>
+<td><blockquote><strong><a href="https://github.com/afreidah/s3-orchestrator">s3-orchestrator</a></strong><br>Presents many S3-compatible providers as one S3 endpoint, with replicated copies, read failover, per-backend limits, compression, and envelope encryption.<br><br><strong>Looking for more users and contributors.</strong></blockquote></td>
 </tr>
 <tr>
 <td width="80" align="center"><a href="https://g3.munchbox.cc"><img src="g3.png" width="80" alt="g3"></a></td>
